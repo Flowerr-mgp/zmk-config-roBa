@@ -101,10 +101,10 @@
 
         M_MOUSE {
             bindings = <
-&trans  &trans     &trans                  &trans                   &kp LG(LS(T))                      &trans    &kp LC(UP_ARROW)    &kp LC(UP_ARROW)     &trans  &trans
-&trans  &kp LG(W)  &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT_ARROW))  &kp LG(T)      &trans      &trans  &mkp MB5  &mkp MB1            &mkp MB2             &trans  &trans
-&trans  &trans     &trans                  &trans                   &trans         &trans      &trans  &mkp MB4  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans  &trans
-&trans  &trans     &trans                  &trans                   &trans         &trans      &trans  &trans                                                     &trans
+&trans  &trans  &kp LG(W)               &kp LG(T)                &kp LG(LS(T))                      &trans    &kp LC(UP_ARROW)    &kp LC(UP_ARROW)     &trans  &trans
+&trans  &trans  &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT_ARROW))  &trans         &trans      &trans  &mkp MB5  &mkp MB1            &mkp MB2             &trans  &trans
+&trans  &trans  &trans                  &trans                   &trans         &trans      &trans  &mkp MB4  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans  &trans
+&trans  &trans  &trans                  &trans                   &trans         &trans      &trans  &trans                                                     &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -141,10 +141,10 @@
 
         W_MOUSE {
             bindings = <
-&trans  &trans     &trans           &trans       &kp LC(LS(T))                      &trans    &kp LG(LC(UP_ARROW))    &kp LG(LC(UP_ARROW))     &trans  &trans
-&trans  &kp LC(W)  &kp LC(LS(TAB))  &kp LC(TAB)  &kp LC(T)      &trans      &trans  &mkp MB5  &mkp MB1                &mkp MB2                 &trans  &trans
-&trans  &trans     &trans           &trans       &trans         &trans      &trans  &mkp MB4  &kp LG(LC(LEFT_ARROW))  &kp LG(LC(RIGHT_ARROW))  &trans  &trans
-&trans  &trans     &trans           &trans       &trans         &trans      &trans  &trans                                                             &trans
+&trans  &trans  &kp LC(W)        &kp LC(T)    &kp LC(LS(T))                      &trans    &kp LG(LC(UP_ARROW))    &kp LG(LC(UP_ARROW))     &trans  &trans
+&trans  &trans  &kp LC(LS(TAB))  &kp LC(TAB)  &trans         &trans      &trans  &mkp MB5  &mkp MB1                &mkp MB2                 &trans  &trans
+&trans  &trans  &trans           &trans       &trans         &trans      &trans  &mkp MB4  &kp LG(LC(LEFT_ARROW))  &kp LG(LC(RIGHT_ARROW))  &trans  &trans
+&trans  &trans  &trans           &trans       &trans         &trans      &trans  &trans                                                             &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
