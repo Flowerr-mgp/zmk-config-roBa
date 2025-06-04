@@ -137,6 +137,8 @@
 &mt LEFT_SHIFT Z    &kp X             &kp C     &kp V                 &kp B        &kp SEMI              &kp APOS                    &kp N            &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LEFT_WIN        &kp LEFT_CONTROL  &kp LALT  &mt LEFT_CONTROL TAB  &lt 1 SPACE  &lt 7 LANGUAGE_2      &mt RIGHT_SHIFT LANGUAGE_1  &lt 2 BACKSPACE                             &lt 4 DELETE
             >;
+
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         W_MOUSE {
